@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800|Jacques+Francois+Shadow');
+body, html {
+  background: black;
+  color: white;
+  font-family: 'Coda Caption', sans-serif;
+}
+.navbar {
+  background-color: grey;
+  border-radius: 0;
+}
+.navbar a {
+  color: black !important;
+}
+.navbar a:hover{
+  background-color: black !important;
+  color: #D2B887 !important;
+}
+#count {
+  font-size: 4em;
+  font-family: 'Jacques Francois Shadow', cursive;
+}
+.click_count {
+  background: #D2B887;
+  color: black;
+  padding: 20px 30px;
+  border: none;
+  box-shadow: 0 8px 0 0 #605031;
+  border-radius: 8%;
+  outline: none;
+  font-size: 1.5em;
+  margin-top: 3vh;
+}
+.click_count:active {
+  margin-bottom: -8px;
+	margin-top: 24px;
+  box-shadow: none;
+}
+.text {
+  margin-top: 3vh;
+  font-size: 1.5em
+}
+.text-lg {
+  font-size: 3em
+}
